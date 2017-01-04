@@ -1,0 +1,25 @@
+body {
+  font-family: fantasy;
+}
+
+p.intro, p.body {
+  font-size: 25px;
+  width: 80%;
+
+}
+
+.flashy {
+  color: red;
+  font-style: italic;
+}
+
+li.best {
+  color: #ff0086;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

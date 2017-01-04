@@ -1,20 +1,25 @@
 body {
   font-family: fantasy;
+  background-color: #bed1ff;
+  width: 80%;
+  margin: 0 auto;
 }
 
-p.intro, p.body {
+p {
   font-size: 25px;
-  width: 80%;
+  text-align: center;
 
 }
 
 .flashy {
   color: red;
   font-style: italic;
+  text-align: center;
 }
 
-li.best {
+p.best, a:link, a:visited {
   color: #ff0086;
+
 }
 
 img {
@@ -22,4 +27,27 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding-bottom: 30px;
+}
+
+ul {
+  font-size: 25px;
+}
+
+.flashy {
+  font-size: 34px;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: blue;
+}
+
+p.list {
+  line-height: 20px;
 }
